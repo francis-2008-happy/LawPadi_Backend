@@ -26,6 +26,22 @@ def query_law(req: QueryRequest):
     Nigerian-law-based answer with citations.
     """
 
+    # -------- HANDLE GREETINGS --------
+    greetings = ["hi", "hello", "hey", "good morning", "good afternoon", "good evening"]
+    normalized_q = req.question.strip().lower().rstrip("!.,?")
+
+    if normalized_q in greetings:
+        return {
+            "answer": "Hello! I am LawPadi, your Nigerian legal research assistant. How can I help you today?",
+            "sources": []
+        }
+
+    if normalized_q in ["who made you", "who built you", "who created you"]:
+        return {
+            "answer": "I was developed by Francis Happy, An AI Engineer Base In Lagos State, Nigeria.",
+            "sources": []
+        }
+
     if not INDEX_PATH.exists():
         raise HTTPException(
             status_code=400, detail="Vector index not found. Run /ingest first."
