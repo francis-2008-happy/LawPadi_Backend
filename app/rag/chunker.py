@@ -3,7 +3,7 @@ import tiktoken
 tokenizer = tiktoken.get_encoding("cl100k_base")
 
 
-def chunk_text(text, min_tokens=500, max_tokens=800):
+def chunk_text(text, min_tokens=100, max_tokens=256):
     tokens = tokenizer.encode(text)
     chunks = []
 

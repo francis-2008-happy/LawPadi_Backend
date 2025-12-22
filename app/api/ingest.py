@@ -8,7 +8,7 @@ from app.rag.loader import load_documents
 from app.rag.chunker import chunk_text
 from app.utils.text_cleaning import clean_text
 from app.utils.metadata import extract_metadata
-from app.rag.embeddings import TfidfEmbedder
+from app.rag.embeddings import Embedder
 
 router = APIRouter()
 
@@ -17,7 +17,6 @@ VECTOR_DIR.mkdir(exist_ok=True)
 
 INDEX_PATH = VECTOR_DIR / "index.faiss"
 META_PATH = VECTOR_DIR / "metadata.pkl"
-VECTORIZER_PATH = VECTOR_DIR / "tfidf.pkl"
 CHUNKS_PATH = VECTOR_DIR / "chunks.pkl"
 
 
@@ -50,7 +49,7 @@ def ingest_documents():
         raise HTTPException(status_code=400, detail="No valid text chunks generated")
 
     # -------- TF-IDF EMBEDDING --------
-    embedder = TfidfEmbedder()
+    embedder = Embedder()
     vectors = embedder.fit_transform(all_chunks)
 
     vectors = np.array(vectors).astype("float32")
@@ -68,9 +67,6 @@ def ingest_documents():
 
     with open(CHUNKS_PATH, "wb") as f:
         pickle.dump(all_chunks, f)
-
-    with open(VECTORIZER_PATH, "wb") as f:
-        pickle.dump(embedder, f)
 
     return {
         "status": "success",

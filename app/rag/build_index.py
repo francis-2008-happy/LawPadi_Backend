@@ -2,7 +2,7 @@ import faiss
 import numpy as np
 from app.rag.loader import load_documents
 from app.rag.chunker import chunk_text
-from app.rag.embeddings import TfidfEmbedder
+from app.rag.embeddings import Embedder
 from app.rag.retriever import save as save_index
 
 
@@ -28,9 +28,8 @@ def build_index():
         return
 
     print("Embedding chunks...")
-    embedder = TfidfEmbedder()
+    embedder = Embedder()
     vectors = embedder.fit_transform(chunks)
-    embedder.save()
 
     print("Building index...")
     dimension = vectors.shape[1]

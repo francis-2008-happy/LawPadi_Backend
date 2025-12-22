@@ -4,15 +4,18 @@ import faiss
 import pickle
 import numpy as np
 from pathlib import Path
+import re
 
 from app.rag.generator import generate
+from app.rag.embeddings import Embedder
 
 router = APIRouter()
 
 VECTOR_DIR = Path("vectorstore")
 INDEX_PATH = VECTOR_DIR / "index.faiss"
 META_PATH = VECTOR_DIR / "meta.pkl"
-VECTORIZER_PATH = VECTOR_DIR / "vectorizer.pkl"
+
+embedder = Embedder()
 
 
 class QueryRequest(BaseModel):
@@ -27,14 +30,20 @@ def query_law(req: QueryRequest):
     """
 
     # -------- HANDLE GREETINGS --------
-    greetings = ["hi", "hello", "hey", "good morning", "good afternoon", "good evening"]
-    normalized_q = req.question.strip().lower().rstrip("!.,?")
+    greetings = [
+        "hi", "hello", "hey", "greetings", "good morning", "good afternoon", 
+        "good evening", "how far", "what's up", "sup", "yo", "good day", 
+        "how are you", "hiya", "hello there", "hi there"
+    ]
+    # Normalize: lowercase and remove punctuation except apostrophes (for "what's up")
+    normalized_q = re.sub(r"[^\w\s']", "", req.question.lower()).strip()
 
-    if normalized_q in greetings:
+    # Check for exact match or short greeting phrases (e.g., "Hi LawPadi")
+    if normalized_q in greetings or (len(normalized_q) < 30 and any(normalized_q.startswith(g + " ") for g in greetings)):
         return {
             "answer": "Hello! I am LawPadi, your Nigerian legal research assistant. How can I help you today?",
             "sources": []
-        }
+        } 
 
     if normalized_q in ["who made you", "who built you", "who created you"]:
         return {
@@ -53,11 +62,8 @@ def query_law(req: QueryRequest):
     with open(META_PATH, "rb") as f:
         metadata = pickle.load(f)
 
-    with open(VECTORIZER_PATH, "rb") as f:
-        vectorizer = pickle.load(f)
-
     # -------- EMBED QUERY --------
-    query_vector = vectorizer.transform([req.question]).toarray().astype("float32")
+    query_vector = embedder.transform([req.question]).astype("float32")
 
     # -------- SEARCH --------
     k = 5

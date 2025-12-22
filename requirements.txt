@@ -9,3 +9,4 @@ groq
 loguru
 scikit-learn
 numpy
+sentence-transformers

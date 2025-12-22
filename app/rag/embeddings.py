@@ -1,29 +1,15 @@
-import numpy as np
-from sklearn.feature_extraction.text import TfidfVectorizer
-import pickle
-import os
-
-VECTORIZER_PATH = "vectorstore/vectorizer.pkl"
+from sentence_transformers import SentenceTransformer
 
 
-class TfidfEmbedder:
+class Embedder:
     def __init__(self):
-        self.vectorizer = TfidfVectorizer(max_features=5000, stop_words="english")
+        # all-MiniLM-L6-v2 is a fast and accurate model for semantic search
+        self.model = SentenceTransformer("all-MiniLM-L6-v2")
 
     def fit_transform(self, texts):
-        vectors = self.vectorizer.fit_transform(texts)
-        return vectors.toarray()
+        # SentenceTransformers are pre-trained; we just encode.
+        return self.transform(texts)
 
     def transform(self, texts):
-        vectors = self.vectorizer.transform(texts)
-        return vectors.toarray()
-
-    def save(self):
-        os.makedirs(os.path.dirname(VECTORIZER_PATH), exist_ok=True)
-        with open(VECTORIZER_PATH, "wb") as f:
-            pickle.dump(self.vectorizer, f)
-
-    def load(self):
-        if os.path.exists(VECTORIZER_PATH):
-            with open(VECTORIZER_PATH, "rb") as f:
-                self.vectorizer = pickle.load(f)
+        # Returns a numpy array of embeddings
+        return self.model.encode(texts, convert_to_numpy=True)
