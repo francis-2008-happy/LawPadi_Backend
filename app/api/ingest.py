@@ -16,8 +16,7 @@ VECTOR_DIR = Path("vectorstore")
 VECTOR_DIR.mkdir(exist_ok=True)
 
 INDEX_PATH = VECTOR_DIR / "index.faiss"
-META_PATH = VECTOR_DIR / "metadata.pkl"
-CHUNKS_PATH = VECTOR_DIR / "chunks.pkl"
+META_PATH = VECTOR_DIR / "meta.pkl"
 
 
 @router.post("/")
@@ -43,7 +42,10 @@ def ingest_documents():
 
         for chunk in chunks:
             all_chunks.append(chunk)
-            all_metadata.append(base_metadata)
+            # Create metadata dict containing the text chunk
+            chunk_meta = base_metadata.copy() if base_metadata else {}
+            chunk_meta.update({"text": chunk, "path": doc["path"]})
+            all_metadata.append(chunk_meta)
 
     if not all_chunks:
         raise HTTPException(status_code=400, detail="No valid text chunks generated")
@@ -64,9 +66,6 @@ def ingest_documents():
 
     with open(META_PATH, "wb") as f:
         pickle.dump(all_metadata, f)
-
-    with open(CHUNKS_PATH, "wb") as f:
-        pickle.dump(all_chunks, f)
 
     return {
         "status": "success",

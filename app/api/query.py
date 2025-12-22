@@ -53,7 +53,7 @@ def query_law(req: QueryRequest):
 
     if not INDEX_PATH.exists():
         raise HTTPException(
-            status_code=400, detail="Vector index not found. Run /ingest first."
+            status_code=400, detail="Vector index not found. Please run 'python -m app.rag.build_index' locally."
         )
 
     # -------- LOAD INDEX & DATA --------
