@@ -8,14 +8,19 @@ import re
 
 from app.rag.generator import generate
 from app.rag.embeddings import Embedder
+from app.rag.hybrid_retriever import HybridRetriever
 
 router = APIRouter()
 
 VECTOR_DIR = Path("vectorstore")
 INDEX_PATH = VECTOR_DIR / "index.faiss"
 META_PATH = VECTOR_DIR / "meta.pkl"
+CORPUS_PATH = VECTOR_DIR / "corpus.pkl"
 
 embedder = Embedder()
+
+# Global retriever instance (lazy loaded)
+_hybrid_retriever = None
 
 
 class QueryRequest(BaseModel):
@@ -51,33 +56,34 @@ def query_law(req: QueryRequest):
             "sources": []
         }
 
-    if not INDEX_PATH.exists():
+    if not INDEX_PATH.exists() or not CORPUS_PATH.exists():
         raise HTTPException(
-            status_code=400, detail="Vector index not found. Please run 'python -m app.rag.build_index' locally."
+            status_code=400, detail="Vector index or corpus not found. Please run 'python -m app.rag.build_index' locally."
         )
 
-    # -------- LOAD INDEX & DATA --------
-    index = faiss.read_index(str(INDEX_PATH))
+    # -------- LOAD HYBRID RETRIEVER --------
+    global _hybrid_retriever
+    if _hybrid_retriever is None:
+        index = faiss.read_index(str(INDEX_PATH))
+        with open(META_PATH, "rb") as f:
+            metadata = pickle.load(f)
+        with open(CORPUS_PATH, "rb") as f:
+            corpus = pickle.load(f)
+        
+        _hybrid_retriever = HybridRetriever(
+            corpus=corpus,
+            faiss_index=index,
+            metadata=metadata,
+            embedder=embedder
+        )
 
-    with open(META_PATH, "rb") as f:
-        metadata = pickle.load(f)
-
-    # -------- EMBED QUERY --------
-    query_vector = embedder.transform([req.question]).astype("float32")
-
-    # -------- SEARCH --------
-    k = 5
-    distances, indices = index.search(query_vector, k)
-
-    if len(indices[0]) == 0:
-        return {"answer": "Insufficient Nigerian legal authority found.", "sources": []}
-
-    retrieved_chunks = []
-
-    for idx in indices[0]:
-        if idx != -1 and idx < len(metadata):
-            item = metadata[idx]
-            retrieved_chunks.append(item["text"])
+    # -------- HYBRID SEARCH --------
+    retrieved_chunks, indices = _hybrid_retriever.search(
+        query=req.question,
+        top_k=5,
+        semantic_weight=0.6,  # 60% semantic, 40% keyword
+        keyword_weight=0.4
+    )
 
     # -------- BUILD CONTEXT --------
     context = "\n\n".join(retrieved_chunks)

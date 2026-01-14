@@ -1,5 +1,7 @@
 import faiss
 import numpy as np
+import pickle
+import os
 from app.rag.loader import load_documents
 from app.rag.chunker import chunk_text
 from app.rag.embeddings import Embedder
@@ -38,6 +40,14 @@ def build_index():
 
     print("Saving index...")
     save_index(index, metadata)
+    
+    # Save corpus for BM25 keyword search
+    corpus_path = "vectorstore/corpus.pkl"
+    os.makedirs(os.path.dirname(corpus_path), exist_ok=True)
+    with open(corpus_path, "wb") as f:
+        pickle.dump(chunks, f)
+    print(f"Corpus saved to {corpus_path}")
+    
     print("Index built and saved successfully.")
 
 

@@ -1,0 +1,1350 @@
+[
+  {
+    "id": "Q001",
+    "question": "What is the supremacy of the Nigerian Constitution?",
+    "expected_answer": "The Nigerian Constitution is supreme and binding on all authorities and persons in Nigeria. Any law or action inconsistent with it is void to the extent of the inconsistency.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Section 1(1)–(3)"
+      }
+    ],
+    "category": "Constitutional Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q002",
+    "question": "Can the National Assembly amend the Constitution without state approval?",
+    "expected_answer": "No. Most constitutional amendments require approval by at least two-thirds of the State Houses of Assembly, in addition to passage by the National Assembly.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Section 9"
+      }
+    ],
+    "category": "Constitutional Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q003",
+    "question": "What are the fundamental rights guaranteed under Chapter IV?",
+    "expected_answer": "Chapter IV guarantees rights including the right to life, dignity of the human person, personal liberty, fair hearing, private and family life, freedom of expression, assembly, religion, and freedom from discrimination.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Sections 33–46"
+      }
+    ],
+    "category": "Constitutional Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q004",
+    "question": "Can fundamental rights be suspended during a state of emergency?",
+    "expected_answer": "Some fundamental rights may be lawfully restricted during a state of emergency, but such restrictions must be reasonably justifiable and authorized by law.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Sections 45 and 305"
+      }
+    ],
+    "category": "Constitutional Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q005",
+    "question": "What is the procedure for declaring a state of emergency in Nigeria?",
+    "expected_answer": "The President may declare a state of emergency, subject to approval by the National Assembly within a specified period.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Section 305"
+      }
+    ],
+    "category": "Constitutional Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q006",
+    "question": "Who has the power to interpret the Constitution?",
+    "expected_answer": "The courts, particularly the Supreme Court, have the final authority to interpret the Constitution.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Sections 232 and 287"
+      }
+    ],
+    "category": "Constitutional Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q007",
+    "question": "Can a citizen sue the government for violation of fundamental rights?",
+    "expected_answer": "Yes. Any person whose fundamental rights have been violated may approach the High Court for redress.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Section 46"
+      }
+    ],
+    "category": "Constitutional Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q008",
+    "question": "What is the doctrine of separation of powers in Nigeria?",
+    "expected_answer": "It is the principle that governmental powers are divided among the executive, legislative, and judicial arms to prevent abuse of power.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "(General constitutional structure)"
+      }
+    ],
+    "category": "Constitutional Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q009",
+    "question": "How is the President removed from office?",
+    "expected_answer": "The President may be removed through impeachment by the National Assembly for gross misconduct, following constitutional procedure.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Section 143"
+      }
+    ],
+    "category": "Constitutional Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q010",
+    "question": "What are the constitutional qualifications for becoming a Governor?",
+    "expected_answer": "A person must be a Nigerian citizen by birth, at least 35 years old, a member of a political party, and educated up to at least school certificate level.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Section 177"
+      }
+    ],
+    "category": "Constitutional Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q011",
+    "question": "What constitutes murder under Nigerian law?",
+    "expected_answer": "Murder is the unlawful killing of another person with malice aforethought.",
+    "expected_legal_basis": [
+      {
+        "law": "Criminal Code Act",
+        "sections": "Section 316"
+      }
+    ],
+    "category": "Criminal Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q012",
+    "question": "What is the punishment for rape in Nigeria?",
+    "expected_answer": "Rape is punishable by life imprisonment under Nigerian law.",
+    "expected_legal_basis": [
+      {
+        "law": "Criminal Code Act",
+        "sections": "Sections 357–358"
+      },
+      {
+        "law": "Penal Code",
+        "sections": "Sections 282–283"
+      }
+    ],
+    "category": "Criminal Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q013",
+    "question": "What is the difference between murder and manslaughter?",
+    "expected_answer": "Murder involves intent to kill or cause grievous harm, while manslaughter involves unlawful killing without such intent.",
+    "expected_legal_basis": [
+      {
+        "law": "Criminal Code Act",
+        "sections": "Sections 316–317"
+      }
+    ],
+    "category": "Criminal Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q014",
+    "question": "Is attempted suicide a crime in Nigeria?",
+    "expected_answer": "Yes. Attempted suicide is a criminal offence under Nigerian law.",
+    "expected_legal_basis": [
+      {
+        "law": "Criminal Code Act",
+        "sections": "Section 327"
+      }
+    ],
+    "category": "Criminal Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q015",
+    "question": "What are the elements of theft under the Criminal Code?",
+    "expected_answer": "Theft involves dishonest taking or conversion of property belonging to another with intent to permanently deprive the owner.",
+    "expected_legal_basis": [
+      {
+        "law": "Criminal Code Act",
+        "sections": "Section 383"
+      }
+    ],
+    "category": "Criminal Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q016",
+    "question": "What constitutes armed robbery under Nigerian law?",
+    "expected_answer": "Armed robbery involves robbery committed with the use of firearms or offensive weapons.",
+    "expected_legal_basis": [
+      {
+        "law": "Robbery and Firearms (Special Provisions) Act",
+        "sections": "(Relevant provisions)"
+      }
+    ],
+    "category": "Criminal Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q017",
+    "question": "What is conspiracy in criminal law?",
+    "expected_answer": "Conspiracy is an agreement between two or more persons to commit an unlawful act or a lawful act by unlawful means.",
+    "expected_legal_basis": [
+      {
+        "law": "Criminal Code Act",
+        "sections": "Section 516"
+      }
+    ],
+    "category": "Criminal Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q018",
+    "question": "Can a minor be convicted of a criminal offence?",
+    "expected_answer": "Yes, but criminal responsibility depends on age, and special rules apply to juveniles.",
+    "expected_legal_basis": [
+      {
+        "law": "Criminal Code Act",
+        "sections": "(Age-related provisions)"
+      },
+      {
+        "law": "Child’s Rights Act",
+        "sections": "(Juvenile justice provisions)"
+      }
+    ],
+    "category": "Criminal Law",
+    "confidence": "Medium"
+  },
+  {
+    "id": "Q019",
+    "question": "What is the defence of insanity under Nigerian law?",
+    "expected_answer": "A person may be exempted from criminal responsibility if, due to mental illness, they lacked capacity to understand their actions.",
+    "expected_legal_basis": [
+      {
+        "law": "Criminal Code Act",
+        "sections": "Section 28"
+      }
+    ],
+    "category": "Criminal Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q020",
+    "question": "What is the punishment for kidnapping?",
+    "expected_answer": "Kidnapping attracts severe penalties, including life imprisonment in some jurisdictions.",
+    "expected_legal_basis": [
+      {
+        "law": "Criminal Code Act",
+        "sections": "(Kidnapping-related provisions)"
+      },
+      {
+        "law": "VAPP Act (where applicable)",
+        "sections": "(Kidnapping provisions)"
+      }
+    ],
+    "category": "Criminal Law",
+    "confidence": "Medium"
+  },
+  {
+    "id": "Q021",
+    "question": "What legal remedies are available for unlawful arrest?",
+    "expected_answer": "Remedies include release, compensation, and public apology.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Sections 35 and 46"
+      }
+    ],
+    "category": "Human Rights",
+    "confidence": "High"
+  },
+  {
+    "id": "Q022",
+    "question": "Can the police detain a suspect without a court order?",
+    "expected_answer": "Yes, but only for a reasonable period and in accordance with the law.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Section 35"
+      }
+    ],
+    "category": "Human Rights",
+    "confidence": "High"
+  },
+  {
+    "id": "Q023",
+    "question": "What is the right to fair hearing under Nigerian law?",
+    "expected_answer": "It guarantees that a person is heard by an impartial court within a reasonable time.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Section 36"
+      }
+    ],
+    "category": "Human Rights",
+    "confidence": "High"
+  },
+  {
+    "id": "Q024",
+    "question": "Can freedom of expression be restricted in Nigeria?",
+    "expected_answer": "Yes, but only by law and where reasonably justifiable in a democratic society.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Sections 39 and 45"
+      }
+    ],
+    "category": "Human Rights",
+    "confidence": "High"
+  },
+  {
+    "id": "Q025",
+    "question": "What are the rights of an accused person during trial?",
+    "expected_answer": "They include presumption of innocence, right to counsel, and right to remain silent.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Section 36"
+      }
+    ],
+    "category": "Human Rights",
+    "confidence": "High"
+  },
+  {
+    "id": "Q026",
+    "question": "Can a journalist be compelled to reveal sources?",
+    "expected_answer": "Generally no, except where required by law in the interest of justice or security.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Section 39"
+      }
+    ],
+    "category": "Human Rights",
+    "confidence": "Medium"
+  },
+  {
+    "id": "Q027",
+    "question": "What legal protections exist against torture?",
+    "expected_answer": "Torture is prohibited and constitutes a violation of human dignity.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Section 34"
+      },
+      {
+        "law": "Anti-Torture Act",
+        "sections": "(Relevant provisions)"
+      }
+    ],
+    "category": "Human Rights",
+    "confidence": "High"
+  },
+  {
+    "id": "Q028",
+    "question": "Can the military try civilians in Nigeria?",
+    "expected_answer": "Generally no, except in limited circumstances permitted by law.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "(Fair hearing/jurisdiction provisions)"
+      }
+    ],
+    "category": "Human Rights",
+    "confidence": "Medium"
+  },
+  {
+    "id": "Q029",
+    "question": "What is the legal process for enforcing fundamental rights?",
+    "expected_answer": "Applications are brought before the High Court under the Fundamental Rights Enforcement Procedure Rules.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Section 46"
+      }
+    ],
+    "category": "Human Rights",
+    "confidence": "High"
+  },
+  {
+    "id": "Q030",
+    "question": "Are same-sex relationships criminalized under Nigerian law?",
+    "expected_answer": "Yes. Same-sex relationships are criminalized under Nigerian law.",
+    "expected_legal_basis": [
+      {
+        "law": "Same Sex Marriage (Prohibition) Act",
+        "sections": "(Relevant provisions)"
+      }
+    ],
+    "category": "Human Rights",
+    "confidence": "High"
+  },
+  {
+    "id": "Q031",
+    "question": "What are the requirements to register a company in Nigeria?",
+    "expected_answer": "Registration requires submission of incorporation documents, details of directors and shareholders, share capital, registered address, and payment of prescribed fees to the Corporate Affairs Commission.",
+    "expected_legal_basis": [
+      {
+        "law": "CAMA 2020",
+        "sections": "(Incorporation provisions)"
+      }
+    ],
+    "category": "Corporate Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q032",
+    "question": "What is the difference between a private and public company?",
+    "expected_answer": "A private company restricts transfer of shares and cannot invite the public to subscribe, while a public company may offer shares to the public.",
+    "expected_legal_basis": [
+      {
+        "law": "CAMA 2020",
+        "sections": "(Private/public company provisions)"
+      }
+    ],
+    "category": "Corporate Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q033",
+    "question": "Can a company have only one director?",
+    "expected_answer": "Yes. Under CAMA 2020, a small company may have a single director.",
+    "expected_legal_basis": [
+      {
+        "law": "CAMA 2020",
+        "sections": "(Directors provisions for small companies)"
+      }
+    ],
+    "category": "Corporate Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q034",
+    "question": "What are the duties of company directors under CAMA 2020?",
+    "expected_answer": "Directors must act in good faith, in the best interest of the company, exercise care and skill, and avoid conflicts of interest.",
+    "expected_legal_basis": [
+      {
+        "law": "CAMA 2020",
+        "sections": "(Directors’ duties provisions)"
+      }
+    ],
+    "category": "Corporate Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q035",
+    "question": "Can a foreigner own a company in Nigeria?",
+    "expected_answer": "Yes. Foreigners may own companies in Nigeria, subject to applicable investment and regulatory laws.",
+    "expected_legal_basis": [
+      {
+        "law": "CAMA 2020",
+        "sections": "(Shareholding provisions)"
+      },
+      {
+        "law": "Nigerian Investment Promotion Commission Act",
+        "sections": "(Foreign participation provisions)"
+      }
+    ],
+    "category": "Corporate Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q036",
+    "question": "What is the legal status of a business name?",
+    "expected_answer": "A business name is a registered trading name but does not have separate legal personality like a company.",
+    "expected_legal_basis": [
+      {
+        "law": "CAMA 2020",
+        "sections": "(Business name provisions)"
+      }
+    ],
+    "category": "Corporate Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q037",
+    "question": "How can a company be wound up?",
+    "expected_answer": "A company may be wound up voluntarily or by court order in accordance with statutory procedures.",
+    "expected_legal_basis": [
+      {
+        "law": "CAMA 2020",
+        "sections": "(Winding up provisions)"
+      }
+    ],
+    "category": "Corporate Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q038",
+    "question": "What is a limited liability partnership?",
+    "expected_answer": "A limited liability partnership combines features of partnerships and companies, offering limited liability to partners.",
+    "expected_legal_basis": [
+      {
+        "law": "CAMA 2020",
+        "sections": "(LLP provisions)"
+      }
+    ],
+    "category": "Corporate Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q039",
+    "question": "Can shares be transferred freely in a private company?",
+    "expected_answer": "No. Transfer of shares in a private company is restricted by its articles.",
+    "expected_legal_basis": [
+      {
+        "law": "CAMA 2020",
+        "sections": "(Share transfer provisions)"
+      }
+    ],
+    "category": "Corporate Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q040",
+    "question": "What are minority shareholder rights in Nigeria?",
+    "expected_answer": "Minority shareholders are entitled to protection against oppressive or unfair conduct and may seek court remedies.",
+    "expected_legal_basis": [
+      {
+        "law": "CAMA 2020",
+        "sections": "(Minority protection provisions)"
+      }
+    ],
+    "category": "Corporate Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q041",
+    "question": "What powers does the Central Bank of Nigeria have?",
+    "expected_answer": "The CBN regulates banks, issues licenses, supervises financial institutions, and maintains monetary stability.",
+    "expected_legal_basis": [
+      {
+        "law": "Central Bank of Nigeria Act",
+        "sections": "(Regulatory powers)"
+      },
+      {
+        "law": "BOFIA 2020",
+        "sections": "(Supervision/licensing provisions)"
+      }
+    ],
+    "category": "Banking & Finance",
+    "confidence": "High"
+  },
+  {
+    "id": "Q042",
+    "question": "What is an illegal banking operation under BOFIA?",
+    "expected_answer": "Operating banking business without a valid license constitutes an illegal banking operation.",
+    "expected_legal_basis": [
+      {
+        "law": "BOFIA 2020",
+        "sections": "(Licensing provisions)"
+      }
+    ],
+    "category": "Banking & Finance",
+    "confidence": "High"
+  },
+  {
+    "id": "Q043",
+    "question": "Can the CBN revoke a bank’s license?",
+    "expected_answer": "Yes. The CBN may revoke a banking license for regulatory breaches.",
+    "expected_legal_basis": [
+      {
+        "law": "BOFIA 2020",
+        "sections": "(License revocation provisions)"
+      }
+    ],
+    "category": "Banking & Finance",
+    "confidence": "High"
+  },
+  {
+    "id": "Q044",
+    "question": "What are the duties of bank directors under BOFIA 2020?",
+    "expected_answer": "Directors must ensure prudent management, regulatory compliance, and protection of depositors’ funds.",
+    "expected_legal_basis": [
+      {
+        "law": "BOFIA 2020",
+        "sections": "(Directors’ responsibilities provisions)"
+      }
+    ],
+    "category": "Banking & Finance",
+    "confidence": "High"
+  },
+  {
+    "id": "Q045",
+    "question": "What is insider lending?",
+    "expected_answer": "Insider lending refers to granting loans to directors or related persons contrary to regulatory limits.",
+    "expected_legal_basis": [
+      {
+        "law": "BOFIA 2020",
+        "sections": "(Insider lending provisions)"
+      }
+    ],
+    "category": "Banking & Finance",
+    "confidence": "High"
+  },
+  {
+    "id": "Q046",
+    "question": "What constitutes bank fraud under Nigerian law?",
+    "expected_answer": "Bank fraud includes deceptive practices intended to unlawfully obtain money or financial advantage.",
+    "expected_legal_basis": [
+      {
+        "law": "BOFIA 2020",
+        "sections": "(Offences provisions)"
+      },
+      {
+        "law": "Criminal Code Act",
+        "sections": "(Fraud-related provisions)"
+      }
+    ],
+    "category": "Banking & Finance",
+    "confidence": "Medium"
+  },
+  {
+    "id": "Q047",
+    "question": "Can a bank freeze a customer’s account?",
+    "expected_answer": "Yes, but usually pursuant to a court order or regulatory directive.",
+    "expected_legal_basis": [
+      {
+        "law": "BOFIA 2020",
+        "sections": "(Regulatory directives)"
+      }
+    ],
+    "category": "Banking & Finance",
+    "confidence": "High"
+  },
+  {
+    "id": "Q048",
+    "question": "What is the role of NDIC?",
+    "expected_answer": "The NDIC insures bank deposits and manages failed banks to protect depositors.",
+    "expected_legal_basis": [
+      {
+        "law": "NDIC Act",
+        "sections": "(Deposit insurance/failed banks provisions)"
+      }
+    ],
+    "category": "Banking & Finance",
+    "confidence": "High"
+  },
+  {
+    "id": "Q049",
+    "question": "What penalties exist for operating an unlicensed bank?",
+    "expected_answer": "Penalties include fines, imprisonment, and closure of the business.",
+    "expected_legal_basis": [
+      {
+        "law": "BOFIA 2020",
+        "sections": "(Penalties provisions)"
+      }
+    ],
+    "category": "Banking & Finance",
+    "confidence": "High"
+  },
+  {
+    "id": "Q050",
+    "question": "Can fintech companies accept deposits legally?",
+    "expected_answer": "Only licensed institutions may accept deposits; fintechs must operate within regulatory approvals.",
+    "expected_legal_basis": [
+      {
+        "law": "BOFIA 2020",
+        "sections": "(Deposit-taking/licensing provisions)"
+      },
+      {
+        "law": "CBN Regulations",
+        "sections": "(Applicable licensing frameworks)"
+      }
+    ],
+    "category": "Banking & Finance",
+    "confidence": "High"
+  },
+  {
+    "id": "Q051",
+    "question": "What is admissible evidence under Nigerian law?",
+    "expected_answer": "Admissible evidence is evidence relevant and permitted by law to prove or disprove facts in issue.",
+    "expected_legal_basis": [
+      {
+        "law": "Evidence Act 2011",
+        "sections": "(General admissibility provisions)"
+      }
+    ],
+    "category": "Evidence",
+    "confidence": "High"
+  },
+  {
+    "id": "Q052",
+    "question": "Can electronic evidence be admitted in court?",
+    "expected_answer": "Yes, electronic evidence is admissible if statutory conditions are met.",
+    "expected_legal_basis": [
+      {
+        "law": "Evidence Act 2011",
+        "sections": "Section 84"
+      }
+    ],
+    "category": "Evidence",
+    "confidence": "High"
+  },
+  {
+    "id": "Q053",
+    "question": "What is hearsay evidence?",
+    "expected_answer": "Hearsay is evidence of statements made outside court and is generally inadmissible.",
+    "expected_legal_basis": [
+      {
+        "law": "Evidence Act 2011",
+        "sections": "(Hearsay provisions)"
+      }
+    ],
+    "category": "Evidence",
+    "confidence": "High"
+  },
+  {
+    "id": "Q054",
+    "question": "Who bears the burden of proof in criminal cases?",
+    "expected_answer": "The prosecution bears the burden of proving guilt beyond reasonable doubt.",
+    "expected_legal_basis": [
+      {
+        "law": "Evidence Act 2011",
+        "sections": "(Burden/standard provisions)"
+      }
+    ],
+    "category": "Evidence",
+    "confidence": "High"
+  },
+  {
+    "id": "Q055",
+    "question": "What is the standard of proof in civil cases?",
+    "expected_answer": "The standard is proof on the balance of probabilities.",
+    "expected_legal_basis": [
+      {
+        "law": "Evidence Act 2011",
+        "sections": "(Standard of proof provisions)"
+      }
+    ],
+    "category": "Evidence",
+    "confidence": "High"
+  },
+  {
+    "id": "Q056",
+    "question": "Can confessional statements be rejected?",
+    "expected_answer": "Yes, if obtained involuntarily or by oppression.",
+    "expected_legal_basis": [
+      {
+        "law": "Evidence Act 2011",
+        "sections": "(Confession voluntariness provisions)"
+      }
+    ],
+    "category": "Evidence",
+    "confidence": "High"
+  },
+  {
+    "id": "Q057",
+    "question": "What is the doctrine of estoppel?",
+    "expected_answer": "Estoppel prevents a party from denying a fact previously asserted and relied upon.",
+    "expected_legal_basis": [
+      {
+        "law": "Evidence Act 2011",
+        "sections": "(Estoppel provisions)"
+      }
+    ],
+    "category": "Evidence",
+    "confidence": "High"
+  },
+  {
+    "id": "Q058",
+    "question": "Are WhatsApp messages admissible as evidence?",
+    "expected_answer": "Yes, subject to compliance with the requirements for electronic evidence.",
+    "expected_legal_basis": [
+      {
+        "law": "Evidence Act 2011",
+        "sections": "Section 84"
+      }
+    ],
+    "category": "Evidence",
+    "confidence": "High"
+  },
+  {
+    "id": "Q059",
+    "question": "What is primary and secondary evidence?",
+    "expected_answer": "Primary evidence is the original document; secondary evidence includes copies or substitutes.",
+    "expected_legal_basis": [
+      {
+        "law": "Evidence Act 2011",
+        "sections": "(Documentary evidence provisions)"
+      }
+    ],
+    "category": "Evidence",
+    "confidence": "High"
+  },
+  {
+    "id": "Q060",
+    "question": "When can illegally obtained evidence be admitted?",
+    "expected_answer": "Illegally obtained evidence may still be admitted if relevant, subject to judicial discretion.",
+    "expected_legal_basis": [
+      {
+        "law": "Evidence Act 2011",
+        "sections": "(Relevance/admissibility provisions)"
+      },
+      {
+        "law": "Case law",
+        "sections": "(Judicial discretion principles)"
+      }
+    ],
+    "category": "Evidence",
+    "confidence": "Medium"
+  },
+  {
+    "id": "Q061",
+    "question": "What is the jurisdiction of the Federal High Court?",
+    "expected_answer": "It has jurisdiction over federal matters such as banking, admiralty, and taxation.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Section 251"
+      }
+    ],
+    "category": "Court Procedure",
+    "confidence": "High"
+  },
+  {
+    "id": "Q062",
+    "question": "What cases fall under the National Industrial Court?",
+    "expected_answer": "Labour, employment, trade union, and industrial relations matters.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "(NICN jurisdiction provisions)"
+      }
+    ],
+    "category": "Court Procedure",
+    "confidence": "High"
+  },
+  {
+    "id": "Q063",
+    "question": "What is the difference between trial and appellate courts?",
+    "expected_answer": "Trial courts hear evidence and determine facts, while appellate courts review decisions of lower courts.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "(Court hierarchy provisions)"
+      }
+    ],
+    "category": "Court Procedure",
+    "confidence": "High"
+  },
+  {
+    "id": "Q064",
+    "question": "How long does an appeal last in Nigeria?",
+    "expected_answer": "There is no fixed duration; it depends on court workload and complexity.",
+    "expected_legal_basis": [
+      {
+        "law": "Court of Appeal/Supreme Court Rules",
+        "sections": "(Timelines/procedure—varies)"
+      }
+    ],
+    "category": "Court Procedure",
+    "confidence": "Medium"
+  },
+  {
+    "id": "Q065",
+    "question": "Can a case be struck out instead of dismissed?",
+    "expected_answer": "Yes. Striking out allows refiling, while dismissal ends the case.",
+    "expected_legal_basis": [
+      {
+        "law": "Civil Procedure Rules",
+        "sections": "(Striking out vs dismissal principles)"
+      }
+    ],
+    "category": "Court Procedure",
+    "confidence": "High"
+  },
+  {
+    "id": "Q066",
+    "question": "What is locus standi?",
+    "expected_answer": "It is the legal capacity of a person to institute an action.",
+    "expected_legal_basis": [
+      {
+        "law": "Case law",
+        "sections": "(Locus standi principles)"
+      }
+    ],
+    "category": "Court Procedure",
+    "confidence": "High"
+  },
+  {
+    "id": "Q067",
+    "question": "What is the effect of limitation of actions?",
+    "expected_answer": "It bars legal actions after the statutory time limit has expired.",
+    "expected_legal_basis": [
+      {
+        "law": "Limitation Laws",
+        "sections": "(Applicable limitation periods)"
+      }
+    ],
+    "category": "Court Procedure",
+    "confidence": "High"
+  },
+  {
+    "id": "Q068",
+    "question": "Can courts sit virtually in Nigeria?",
+    "expected_answer": "Yes, where authorized by law or practice directions.",
+    "expected_legal_basis": [
+      {
+        "law": "Practice Directions / Court Rules",
+        "sections": "(Virtual hearing provisions)"
+      }
+    ],
+    "category": "Court Procedure",
+    "confidence": "High"
+  },
+  {
+    "id": "Q069",
+    "question": "What is an interlocutory application?",
+    "expected_answer": "It is an application made during the pendency of a suit.",
+    "expected_legal_basis": [
+      {
+        "law": "Civil Procedure Rules",
+        "sections": "(Interlocutory applications)"
+      }
+    ],
+    "category": "Court Procedure",
+    "confidence": "High"
+  },
+  {
+    "id": "Q070",
+    "question": "What is the hierarchy of courts in Nigeria?",
+    "expected_answer": "Supreme Court, Court of Appeal, Federal and State High Courts, and lower courts.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "(Judicature provisions)"
+      }
+    ],
+    "category": "Court Procedure",
+    "confidence": "High"
+  },
+  {
+    "id": "Q071",
+    "question": "What is the binding effect of Supreme Court decisions?",
+    "expected_answer": "Supreme Court decisions are binding on all lower courts.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Section 287"
+      }
+    ],
+    "category": "Case Law & Precedent",
+    "confidence": "High"
+  },
+  {
+    "id": "Q072",
+    "question": "Can the Supreme Court overrule itself?",
+    "expected_answer": "Yes, in exceptional circumstances.",
+    "expected_legal_basis": [
+      {
+        "law": "Case law",
+        "sections": "(Stare decisis principles)"
+      }
+    ],
+    "category": "Case Law & Precedent",
+    "confidence": "High"
+  },
+  {
+    "id": "Q073",
+    "question": "What is ratio decidendi?",
+    "expected_answer": "It is the legal principle on which a case is decided.",
+    "expected_legal_basis": [
+      {
+        "law": "Case law doctrine",
+        "sections": "(Ratio decidendi)"
+      }
+    ],
+    "category": "Case Law & Precedent",
+    "confidence": "High"
+  },
+  {
+    "id": "Q074",
+    "question": "What is obiter dictum?",
+    "expected_answer": "Statements made by a judge that are not essential to the decision.",
+    "expected_legal_basis": [
+      {
+        "law": "Case law doctrine",
+        "sections": "(Obiter dictum)"
+      }
+    ],
+    "category": "Case Law & Precedent",
+    "confidence": "High"
+  },
+  {
+    "id": "Q075",
+    "question": "Are Court of Appeal decisions binding on High Courts?",
+    "expected_answer": "Yes, they are binding on all lower courts.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Section 287"
+      }
+    ],
+    "category": "Case Law & Precedent",
+    "confidence": "High"
+  },
+  {
+    "id": "Q076",
+    "question": "What happens when courts give conflicting judgments?",
+    "expected_answer": "Lower courts must follow the higher court’s decision.",
+    "expected_legal_basis": [
+      {
+        "law": "Case law doctrine",
+        "sections": "(Hierarchy/precedent principles)"
+      }
+    ],
+    "category": "Case Law & Precedent",
+    "confidence": "High"
+  },
+  {
+    "id": "Q077",
+    "question": "Can a Supreme Court judgment be reviewed?",
+    "expected_answer": "Generally no, except to correct clerical errors or in limited circumstances.",
+    "expected_legal_basis": [
+      {
+        "law": "Supreme Court Rules / practice",
+        "sections": "(Slip rule/limited review principles)"
+      }
+    ],
+    "category": "Case Law & Precedent",
+    "confidence": "Medium"
+  },
+  {
+    "id": "Q078",
+    "question": "What is judicial precedent?",
+    "expected_answer": "It is the principle that courts follow earlier decisions in similar cases.",
+    "expected_legal_basis": [
+      {
+        "law": "Case law doctrine",
+        "sections": "(Stare decisis)"
+      }
+    ],
+    "category": "Case Law & Precedent",
+    "confidence": "High"
+  },
+  {
+    "id": "Q079",
+    "question": "How are landmark cases identified?",
+    "expected_answer": "They establish important legal principles or clarify the law.",
+    "expected_legal_basis": [
+      {
+        "law": "Case law practice",
+        "sections": "(Practical identification)"
+      }
+    ],
+    "category": "Case Law & Precedent",
+    "confidence": "Medium"
+  },
+  {
+    "id": "Q080",
+    "question": "Can customary law override statutory law?",
+    "expected_answer": "No. Statutory law prevails over customary law.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Section 1(3) (supremacy)"
+      }
+    ],
+    "category": "Customary/Statutory Interaction",
+    "confidence": "High"
+  },
+  {
+    "id": "Q081",
+    "question": "What constitutes a valid marriage under Nigerian law?",
+    "expected_answer": "Marriage may be statutory, customary, or Islamic, each with specific requirements.",
+    "expected_legal_basis": [
+      {
+        "law": "Marriage Act",
+        "sections": "(Statutory marriage requirements)"
+      },
+      {
+        "law": "Customary/Islamic law",
+        "sections": "(Applicable requirements)"
+      }
+    ],
+    "category": "Family Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q082",
+    "question": "What are grounds for divorce in Nigeria?",
+    "expected_answer": "Irretrievable breakdown of marriage.",
+    "expected_legal_basis": [
+      {
+        "law": "Matrimonial Causes Act",
+        "sections": "(Grounds for dissolution)"
+      }
+    ],
+    "category": "Family Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q083",
+    "question": "Can a customary marriage be dissolved in court?",
+    "expected_answer": "Yes, customary courts may dissolve customary marriages.",
+    "expected_legal_basis": [
+      {
+        "law": "Customary law / Customary Court Laws",
+        "sections": "(Dissolution provisions)"
+      }
+    ],
+    "category": "Family Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q084",
+    "question": "Who has custody of a child after divorce?",
+    "expected_answer": "Custody is determined in the best interest of the child.",
+    "expected_legal_basis": [
+      {
+        "law": "Matrimonial Causes Act",
+        "sections": "(Custody provisions)"
+      },
+      {
+        "law": "Child’s Rights Act",
+        "sections": "(Best interest principle)"
+      }
+    ],
+    "category": "Family Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q085",
+    "question": "Can a woman inherit property under customary law?",
+    "expected_answer": "Yes, subject to constitutional and judicial decisions rejecting discriminatory customs.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Section 42 (non-discrimination)"
+      },
+      {
+        "law": "Case law",
+        "sections": "(Invalidation of discriminatory customs)"
+      }
+    ],
+    "category": "Family Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q086",
+    "question": "What is the legal age of marriage in Nigeria?",
+    "expected_answer": "The legal age is generally 18 years.",
+    "expected_legal_basis": [
+      {
+        "law": "Child’s Rights Act",
+        "sections": "(Marriage/child protection provisions)"
+      }
+    ],
+    "category": "Family Law",
+    "confidence": "Medium"
+  },
+  {
+    "id": "Q087",
+    "question": "Can a will override customary inheritance?",
+    "expected_answer": "Yes, a valid will overrides customary succession rules.",
+    "expected_legal_basis": [
+      {
+        "law": "Wills Law",
+        "sections": "(Testamentary freedom)"
+      }
+    ],
+    "category": "Succession",
+    "confidence": "High"
+  },
+  {
+    "id": "Q088",
+    "question": "What happens if someone dies without a will?",
+    "expected_answer": "Their estate is distributed according to intestacy laws or customary law.",
+    "expected_legal_basis": [
+      {
+        "law": "Administration of Estates Law",
+        "sections": "(Intestacy distribution)"
+      }
+    ],
+    "category": "Succession",
+    "confidence": "High"
+  },
+  {
+    "id": "Q089",
+    "question": "What is the legal status of adoption in Nigeria?",
+    "expected_answer": "Adoption is legally recognized and regulated by law.",
+    "expected_legal_basis": [
+      {
+        "law": "Child’s Rights Act",
+        "sections": "(Adoption provisions)"
+      }
+    ],
+    "category": "Family Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q090",
+    "question": "Can a foreign marriage be recognized in Nigeria?",
+    "expected_answer": "Yes, if valid under the law of the place where it was celebrated.",
+    "expected_legal_basis": [
+      {
+        "law": "Private international law principles",
+        "sections": "(Recognition of foreign marriages)"
+      }
+    ],
+    "category": "Family Law",
+    "confidence": "High"
+  },
+  {
+    "id": "Q091",
+    "question": "What powers does the EFCC have?",
+    "expected_answer": "The EFCC investigates and prosecutes economic and financial crimes.",
+    "expected_legal_basis": [
+      {
+        "law": "EFCC Act",
+        "sections": "(Investigatory/prosecutorial powers)"
+      }
+    ],
+    "category": "Anti-Corruption",
+    "confidence": "High"
+  },
+  {
+    "id": "Q092",
+    "question": "Can the EFCC arrest without a warrant?",
+    "expected_answer": "Yes, where permitted by law and in appropriate circumstances.",
+    "expected_legal_basis": [
+      {
+        "law": "EFCC Act",
+        "sections": "(Arrest powers)"
+      }
+    ],
+    "category": "Anti-Corruption",
+    "confidence": "Medium"
+  },
+  {
+    "id": "Q093",
+    "question": "What offences fall under the EFCC Act?",
+    "expected_answer": "Offences include money laundering, fraud, and related economic crimes.",
+    "expected_legal_basis": [
+      {
+        "law": "EFCC Act",
+        "sections": "(Offences provisions)"
+      }
+    ],
+    "category": "Anti-Corruption",
+    "confidence": "High"
+  },
+  {
+    "id": "Q094",
+    "question": "What is money laundering under Nigerian law?",
+    "expected_answer": "It is the concealment or conversion of proceeds of crime.",
+    "expected_legal_basis": [
+      {
+        "law": "Money Laundering (Prevention) Act",
+        "sections": "(Definitions/offences)"
+      }
+    ],
+    "category": "Anti-Corruption",
+    "confidence": "High"
+  },
+  {
+    "id": "Q095",
+    "question": "Can public officers be prosecuted after leaving office?",
+    "expected_answer": "Yes, subject to constitutional immunities while in office.",
+    "expected_legal_basis": [
+      {
+        "law": "Constitution of Nigeria",
+        "sections": "Section 308 (immunity)"
+      }
+    ],
+    "category": "Anti-Corruption",
+    "confidence": "High"
+  },
+  {
+    "id": "Q096",
+    "question": "What is abuse of office?",
+    "expected_answer": "It is the improper use of official position for personal gain.",
+    "expected_legal_basis": [
+      {
+        "law": "Criminal Code Act",
+        "sections": "(Official corruption/abuse provisions)"
+      }
+    ],
+    "category": "Anti-Corruption",
+    "confidence": "High"
+  },
+  {
+    "id": "Q097",
+    "question": "What is the role of ICPC?",
+    "expected_answer": "The ICPC investigates and prosecutes corruption in public offices.",
+    "expected_legal_basis": [
+      {
+        "law": "ICPC Act",
+        "sections": "(Mandate provisions)"
+      }
+    ],
+    "category": "Anti-Corruption",
+    "confidence": "High"
+  },
+  {
+    "id": "Q098",
+    "question": "Can assets be forfeited before conviction?",
+    "expected_answer": "Yes, courts may order interim forfeiture in appropriate cases.",
+    "expected_legal_basis": [
+      {
+        "law": "EFCC Act",
+        "sections": "(Interim forfeiture provisions)"
+      }
+    ],
+    "category": "Anti-Corruption",
+    "confidence": "Medium"
+  },
+  {
+    "id": "Q099",
+    "question": "What is plea bargaining in Nigeria?",
+    "expected_answer": "It is an agreement between the prosecution and defendant to resolve a case without full trial.",
+    "expected_legal_basis": [
+      {
+        "law": "Administration of Criminal Justice Act 2015",
+        "sections": "(Plea bargain provisions)"
+      }
+    ],
+    "category": "Criminal Procedure",
+    "confidence": "High"
+  },
+  {
+    "id": "Q100",
+    "question": "Can corruption cases be settled out of court?",
+    "expected_answer": "Certain cases may be resolved through plea bargaining, subject to court approval.",
+    "expected_legal_basis": [
+      {
+        "law": "Administration of Criminal Justice Act 2015",
+        "sections": "(Plea bargain provisions)"
+      }
+    ],
+    "category": "Anti-Corruption",
+    "confidence": "High"
+  }
+]

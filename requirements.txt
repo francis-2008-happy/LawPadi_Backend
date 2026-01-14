@@ -10,3 +10,4 @@ loguru
 scikit-learn
 numpy
 sentence-transformers
+rank-bm25
