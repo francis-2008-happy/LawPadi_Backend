@@ -1,0 +1,101 @@
+id,category,confidence,token_f1,difflib_ratio,embedding_cosine,legal_basis_match,question
+Q001,Constitutional Law,High,0.17073170731707316,0.16666666666666666,0.7639797925949097,False,What is the supremacy of the Nigerian Constitution?
+Q002,Constitutional Law,High,0.14232209737827717,0.09252217997465145,0.6738035678863525,True,Can the National Assembly amend the Constitution without state approval?
+Q003,Constitutional Law,High,0.2426778242677824,0.005445881552076242,0.6020116806030273,False,What are the fundamental rights guaranteed under Chapter IV?
+Q004,Constitutional Law,High,0.10996563573883161,0.12506856829402085,0.7602517008781433,False,Can fundamental rights be suspended during a state of emergency?
+Q005,Constitutional Law,High,0.09722222222222222,0.10965435041716329,0.7753287553787231,True,What is the procedure for declaring a state of emergency in Nigeria?
+Q006,Constitutional Law,High,0.17808219178082194,0.19175027870680045,0.6623095273971558,False,Who has the power to interpret the Constitution?
+Q007,Constitutional Law,High,0.09411764705882353,0.08741030658838878,0.5183355808258057,True,Can a citizen sue the government for violation of fundamental rights?
+Q008,Constitutional Law,High,0.09574468085106383,0.09351565946184384,0.6429173350334167,False,What is the doctrine of separation of powers in Nigeria?
+Q009,Constitutional Law,High,0.10480349344978167,0.14857975236707938,0.6470489501953125,True,How is the President removed from office?
+Q010,Constitutional Law,High,0.1811320754716981,0.17258883248730963,0.6993855237960815,True,What are the constitutional qualifications for becoming a Governor?
+Q011,Criminal Law,High,0.07719298245614035,0.0748663101604278,0.6605750918388367,True,What constitutes murder under Nigerian law?
+Q012,Criminal Law,High,0.10666666666666667,0.2081447963800905,0.9239782094955444,True,What is the punishment for rape in Nigeria?
+Q013,Criminal Law,High,0.08484848484848484,0.08935361216730038,0.8230658769607544,False,What is the difference between murder and manslaughter?
+Q014,Criminal Law,High,0.0847457627118644,0.1274787535410765,0.843066930770874,True,Is attempted suicide a crime in Nigeria?
+Q015,Criminal Law,High,0.0821917808219178,0.10532276330690826,0.6580386757850647,True,What are the elements of theft under the Criminal Code?
+Q016,Criminal Law,High,0.06269592476489029,0.06963042313872522,0.5794344544410706,False,What constitutes armed robbery under Nigerian law?
+Q017,Criminal Law,High,0.09289617486338798,0.09687184661957618,0.590341329574585,True,What is conspiracy in criminal law?
+Q018,Criminal Law,Medium,0.053435114503816786,0.06654111738857502,0.5560950040817261,False,Can a minor be convicted of a criminal offence?
+Q019,Criminal Law,High,0.06748466257668712,0.06472846955567746,0.564757764339447,True,What is the defence of insanity under Nigerian law?
+Q020,Criminal Law,Medium,0.03319502074688796,0.08124576844955991,0.7217140197753906,True,What is the punishment for kidnapping?
+Q021,Human Rights,High,0.015228426395939085,0.04106280193236715,0.31454673409461975,False,What legal remedies are available for unlawful arrest?
+Q022,Human Rights,High,0.05167958656330749,0.05679335954565312,0.345061719417572,True,Can the police detain a suspect without a court order?
+Q023,Human Rights,High,0.0748663101604278,0.04871447902571042,0.4779787063598633,True,What is the right to fair hearing under Nigerian law?
+Q024,Human Rights,High,0.07377049180327869,0.08208469055374593,0.41915273666381836,True,Can freedom of expression be restricted in Nigeria?
+Q025,Human Rights,High,0.04281345565749235,0.05621621621621622,0.4730268716812134,True,What are the rights of an accused person during trial?
+Q026,Human Rights,Medium,0.0335195530726257,0.051555555555555556,0.2839066982269287,False,Can a journalist be compelled to reveal sources?
+Q027,Human Rights,High,0.0627177700348432,0.07114624505928854,0.6178711652755737,True,What legal protections exist against torture?
+Q028,Human Rights,Medium,0.019672131147540985,0.0383419689119171,0.2794232666492462,False,Can the military try civilians in Nigeria?
+Q029,Human Rights,High,0.03977272727272728,0.05034965034965035,0.5548638105392456,True,What is the legal process for enforcing fundamental rights?
+Q030,Human Rights,High,0.05423728813559322,0.07102593010146561,0.8018338084220886,False,Are same-sex relationships criminalized under Nigerian law?
+Q031,Corporate Law,High,0.049140049140049144,0.025376685170499604,0.6562768816947937,False,What are the requirements to register a company in Nigeria?
+Q032,Corporate Law,High,0.11827956989247314,0.11602209944751381,0.7356789708137512,False,What is the difference between a private and public company?
+Q033,Corporate Law,High,0.0642570281124498,0.08236101578586136,0.6507743000984192,False,Can a company have only one director?
+Q034,Corporate Law,High,0.09329446064139942,0.10566396953831508,0.6349342465400696,True,What are the duties of company directors under CAMA 2020?
+Q035,Corporate Law,High,0.05839416058394161,0.08608490566037735,0.771461009979248,False,Can a foreigner own a company in Nigeria?
+Q036,Corporate Law,High,0.07905138339920949,0.0963855421686747,0.6323961019515991,False,What is the legal status of a business name?
+Q037,Corporate Law,High,0.0735294117647059,0.07313887679582064,0.7493935227394104,False,How can a company be wound up?
+Q038,Corporate Law,High,0.11111111111111112,0.12140992167101827,0.7944134473800659,False,What is a limited liability partnership?
+Q039,Corporate Law,High,0.07434944237918216,0.08594229588704727,0.7338290214538574,False,Can shares be transferred freely in a private company?
+Q040,Corporate Law,High,0.03722504230118443,0.06004489337822671,0.7383121848106384,False,What are minority shareholder rights in Nigeria?
+Q041,Banking & Finance,High,0.023054755043227668,0.07004608294930875,0.4480569064617157,True,What powers does the Central Bank of Nigeria have?
+Q042,Banking & Finance,High,0.04620462046204621,0.059548254620123205,0.5653639435768127,False,What is an illegal banking operation under BOFIA?
+Q043,Banking & Finance,High,0.03278688524590164,0.060039370078740155,0.6885831952095032,False,Can the CBN revoke a bank’s license?
+Q044,Banking & Finance,High,0.03021148036253776,0.06369426751592357,0.5440400242805481,True,What are the duties of bank directors under BOFIA 2020?
+Q045,Banking & Finance,High,0.0909090909090909,0.12425531914893617,0.7878594398498535,False,What is insider lending?
+Q046,Banking & Finance,Medium,0.03164556962025316,0.06461232604373758,0.669823944568634,True,What constitutes bank fraud under Nigerian law?
+Q047,Banking & Finance,High,0.04545454545454545,0.06350858927641853,0.3803989291191101,False,Can a bank freeze a customer’s account?
+Q048,Banking & Finance,High,0.11976047904191615,0.10301953818827708,0.8095059990882874,True,What is the role of NDIC?
+Q049,Banking & Finance,High,0.0425531914893617,0.07304347826086957,0.5920417904853821,False,What penalties exist for operating an unlicensed bank?
+Q050,Banking & Finance,High,0.04477611940298507,0.10352941176470588,0.6552096009254456,False,Can fintech companies accept deposits legally?
+Q051,Evidence,High,0.061465721040189124,0.04844570044408559,0.6811374425888062,False,What is admissible evidence under Nigerian law?
+Q052,Evidence,High,0.02967359050445104,0.059494298463063956,0.7350845336914062,True,Can electronic evidence be admitted in court?
+Q053,Evidence,High,0.09655172413793103,0.147024504084014,0.7518811225891113,False,What is hearsay evidence?
+Q054,Evidence,High,0.07042253521126762,0.08168168168168168,0.6883801817893982,False,Who bears the burden of proof in criminal cases?
+Q055,Evidence,High,0.07594936708860758,0.08065720687079911,0.6064635515213013,False,What is the standard of proof in civil cases?
+Q056,Evidence,High,0.027777777777777776,0.03747072599531616,0.2321346551179886,False,Can confessional statements be rejected?
+Q057,Evidence,High,0.10185185185185185,0.11505122143420016,0.706945538520813,False,What is the doctrine of estoppel?
+Q058,Evidence,High,0.025510204081632654,0.03944607637431809,0.4182170331478119,True,Are WhatsApp messages admissible as evidence?
+Q059,Evidence,High,0.0641399416909621,0.09046214355948869,0.8025895357131958,False,What is primary and secondary evidence?
+Q060,Evidence,Medium,0.10328638497652581,0.12518853695324283,0.66419917345047,False,When can illegally obtained evidence be admitted?
+Q061,Court Procedure,High,0.04469273743016759,0.058333333333333334,0.4805185794830322,True,What is the jurisdiction of the Federal High Court?
+Q062,Court Procedure,High,0.04219409282700421,0.07129909365558912,0.434995174407959,False,What cases fall under the National Industrial Court?
+Q063,Court Procedure,High,0.08823529411764706,0.09665427509293681,0.6077465415000916,False,What is the difference between trial and appellate courts?
+Q064,Court Procedure,Medium,0.06779661016949153,0.055587724377533294,0.5303894877433777,False,How long does an appeal last in Nigeria?
+Q065,Court Procedure,High,0.05235602094240837,0.07822222222222222,0.6207586526870728,False,Can a case be struck out instead of dismissed?
+Q066,Court Procedure,High,0.058981233243967826,0.04919583727530748,0.450546532869339,False,What is locus standi?
+Q067,Court Procedure,High,0.04,0.051256776737309016,0.5461519360542297,False,What is the effect of limitation of actions?
+Q068,Court Procedure,High,0.021276595744680854,0.0417558886509636,0.2657312750816345,False,Can courts sit virtually in Nigeria?
+Q069,Court Procedure,High,0.0846153846153846,0.07681755829903979,0.3882169723510742,False,What is an interlocutory application?
+Q070,Court Procedure,High,0.056074766355140186,0.057892705519104595,0.5744034647941589,False,What is the hierarchy of courts in Nigeria?
+Q071,Case Law & Precedent,High,0.05373134328358209,0.05879265091863517,0.5646944046020508,False,What is the binding effect of Supreme Court decisions?
+Q072,Case Law & Precedent,High,0.0234375,0.04356435643564356,0.2023204118013382,True,Can the Supreme Court overrule itself?
+Q073,Case Law & Precedent,High,0.07751937984496124,0.07066666666666667,0.57582026720047,False,What is ratio decidendi?
+Q074,Case Law & Precedent,High,0.0784313725490196,0.09748892171344166,0.4460901618003845,False,What is obiter dictum?
+Q075,Case Law & Precedent,High,0.04032258064516128,0.052259887005649715,0.45611336827278137,True,Are Court of Appeal decisions binding on High Courts?
+Q076,Case Law & Precedent,High,0.030612244897959183,0.044365572315882874,0.49524861574172974,False,What happens when courts give conflicting judgments?
+Q077,Case Law & Precedent,Medium,0.0272108843537415,0.0547945205479452,0.1519489586353302,False,Can a Supreme Court judgment be reviewed?
+Q078,Case Law & Precedent,High,0.06727828746177371,0.06474456246838645,0.5931028723716736,False,What is judicial precedent?
+Q079,Case Law & Precedent,Medium,0.03125,0.05706702057067021,0.4284024238586426,False,How are landmark cases identified?
+Q080,Customary/Statutory Interaction,High,0.0390625,0.0546583850931677,0.6830723881721497,False,Can customary law override statutory law?
+Q081,Family Law,High,0.03703703703703703,0.046983449012279764,0.5825631618499756,True,What constitutes a valid marriage under Nigerian law?
+Q082,Family Law,High,0.011363636363636362,0.025899280575539568,0.5048563480377197,True,What are grounds for divorce in Nigeria?
+Q083,Family Law,High,0.03260869565217391,0.07718696397941681,0.6559171080589294,False,Can a customary marriage be dissolved in court?
+Q084,Family Law,High,0.06642066420664207,0.07115628970775095,0.6489997506141663,True,Who has custody of a child after divorce?
+Q085,Family Law,High,0.018018018018018018,0.02687904430064709,0.2978699207305908,False,Can a woman inherit property under customary law?
+Q086,Family Law,Medium,0.08391608391608392,0.06985769728331177,0.5422466397285461,False,What is the legal age of marriage in Nigeria?
+Q087,Succession,High,0.019672131147540985,0.04501969611705121,0.5387499928474426,False,Can a will override customary inheritance?
+Q088,Succession,High,0.07782101167315174,0.08718282368249837,0.659203290939331,True,What happens if someone dies without a will?
+Q089,Family Law,High,0.02557544757033248,0.0452930728241563,0.584751307964325,False,What is the legal status of adoption in Nigeria?
+Q090,Family Law,High,0.05921052631578948,0.06422018348623854,0.18038415908813477,False,Can a foreign marriage be recognized in Nigeria?
+Q091,Anti-Corruption,High,0.04430379746835443,0.044444444444444446,0.8049862384796143,False,What powers does the EFCC have?
+Q092,Anti-Corruption,Medium,0.04201680672268907,0.04513217279174726,0.20099830627441406,True,Can the EFCC arrest without a warrant?
+Q093,Anti-Corruption,High,0.05405405405405406,0.07011686143572621,0.6376731991767883,True,What offences fall under the EFCC Act?
+Q094,Anti-Corruption,High,0.0625,0.08695652173913043,0.4769880175590515,False,What is money laundering under Nigerian law?
+Q095,Anti-Corruption,High,0.026315789473684213,0.05194805194805195,0.35087287425994873,False,Can public officers be prosecuted after leaving office?
+Q096,Anti-Corruption,High,0.060836501901140684,0.052083333333333336,0.36007949709892273,False,What is abuse of office?
+Q097,Anti-Corruption,High,0.06122448979591837,0.10501193317422435,0.753179669380188,False,What is the role of ICPC?
+Q098,Anti-Corruption,Medium,0.03246753246753247,0.050130548302872065,0.5723761916160583,False,Can assets be forfeited before conviction?
+Q099,Criminal Procedure,High,0.06060606060606061,0.06741573033707865,0.5207885503768921,False,What is plea bargaining in Nigeria?
+Q100,Anti-Corruption,High,0.04545454545454545,0.0830188679245283,0.42114129662513733,False,Can corruption cases be settled out of court?

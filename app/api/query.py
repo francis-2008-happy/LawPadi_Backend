@@ -2,7 +2,6 @@ from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 import faiss
 import pickle
-import numpy as np
 from pathlib import Path
 import re
 
@@ -34,21 +33,60 @@ def query_law(req: QueryRequest):
     Nigerian-law-based answer with citations.
     """
 
-    # -------- HANDLE GREETINGS --------
-    greetings = [
-        "hi", "hello", "hey", "greetings", "good morning", "good afternoon", 
-        "good evening", "how far", "what's up", "sup", "yo", "good day", 
-        "how are you", "hiya", "hello there", "hi there"
-    ]
-    # Normalize: lowercase and remove punctuation except apostrophes (for "what's up")
-    normalized_q = re.sub(r"[^\w\s']", "", req.question.lower()).strip()
+    # -------- HANDLE GREETINGS / SMALL TALK --------
+    # Normalize: lowercase, remove punctuation except apostrophes, collapse whitespace.
+    normalized_q = re.sub(r"[^\w\s']", "", req.question.lower())
+    normalized_q = re.sub(r"\s+", " ", normalized_q).strip()
+    normalized_q_no_apostrophe = normalized_q.replace("'", "")
 
-    # Check for exact match or short greeting phrases (e.g., "Hi LawPadi")
-    if normalized_q in greetings or (len(normalized_q) < 30 and any(normalized_q.startswith(g + " ") for g in greetings)):
+    greeting_phrases = {
+        "hi",
+        "hello",
+        "hey",
+        "greetings",
+        "hiya",
+        "yo",
+        "sup",
+        "hello there",
+        "hi there",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "good day",
+        "how far",
+        "whats up",
+        "what's up",
+    }
+
+    def _is_small_talk(text: str, text_no_apostrophe: str) -> bool:
+        if not text:
+            return False
+        if text in greeting_phrases or text_no_apostrophe in {p.replace("'", "") for p in greeting_phrases}:
+            return True
+        if len(text) < 50 and any(text.startswith(p + " ") for p in greeting_phrases):
+            return True
+        # Wellbeing / casual check-ins (e.g., "how are you doing today")
+        if text.startswith("how are you") or text.startswith("how you dey"):
+            return True
+        return False
+
+    if _is_small_talk(normalized_q, normalized_q_no_apostrophe):
+        if normalized_q.startswith("how are you") or normalized_q.startswith("how you dey"):
+            return {"answer": "I’m well, thank you. How can I help you today?", "sources": []}
+        if normalized_q.startswith("good morning"):
+            return {"answer": "Good morning. How can I help you today?", "sources": []}
+        if normalized_q.startswith("good afternoon"):
+            return {"answer": "Good afternoon. How can I help you today?", "sources": []}
+        if normalized_q.startswith("good evening"):
+            return {"answer": "Good evening. How can I help you today?", "sources": []}
+        return {"answer": "Hello. How can I help you today?", "sources": []}
+
+    # -------- HANDLE IDENTITY / CREATOR QUESTIONS --------
+    if normalized_q in ["who are you", "what are you", "what can you do", "what do you do"]:
         return {
-            "answer": "Hello! I am LawPadi, your Nigerian legal research assistant. How can I help you today?",
-            "sources": []
-        } 
+            "answer": "I am LawPadi, a Nigerian legal research assistant. Ask a Nigerian law question and I will answer with citations to the relevant authority.",
+            "sources": [],
+        }
 
     if normalized_q in ["who made you", "who built you", "who created you"]:
         return {

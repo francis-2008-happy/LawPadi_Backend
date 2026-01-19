@@ -1,0 +1,126 @@
+{
+  "summary": {
+    "run_name": "20260117_175727",
+    "dataset": "lawpadi_gold_dataset_100- json-file.json",
+    "vector_dir": "vectorstore",
+    "created_at": "2026-01-17T16:59:22.813517+00:00",
+    "range": {
+      "start": 0,
+      "end": 3,
+      "count": 3
+    },
+    "counts": {
+      "asked": 3,
+      "skipped": 0,
+      "errors": 0
+    },
+    "params": {
+      "top_k": 5,
+      "semantic_weight": 0.6,
+      "keyword_weight": 0.4,
+      "sleep": 0.0,
+      "resume": false,
+      "no_embed_metric": true,
+      "save_context": false
+    },
+    "averages": {
+      "token_f1": 0.17991787916105065,
+      "token_precision": 0.10014732742005471,
+      "token_recall": 0.8870003707823507,
+      "difflib_ratio": 0.08039645881256223,
+      "embedding_cosine": null,
+      "legal_basis_match_rate": 0.3333333333333333
+    }
+  },
+  "items": [
+    {
+      "id": "Q001",
+      "category": "Constitutional Law",
+      "confidence": "High",
+      "question": "What is the supremacy of the Nigerian Constitution?",
+      "expected_answer": "The Nigerian Constitution is supreme and binding on all authorities and persons in Nigeria. Any law or action inconsistent with it is void to the extent of the inconsistency.",
+      "model_answer": "CONSTITUTIONAL SUPREMACY\n\nThe supremacy of the Nigerian Constitution is enshrined in Section 1 of the Constitution of the Federal Republic of Nigeria, which provides that the Constitution is supreme and its provisions shall have binding force on all authorities and persons throughout the Federal Republic of Nigeria. \n\nAccording to Section 1(1) of the Constitution, the Constitution is supreme, and its provisions shall have binding force on all authorities and persons throughout the Federal Republic of Nigeria. \n\nFurthermore, Section 1(2) of the Constitution states that the Federal Republic of Nigeria shall not be governed, nor shall any persons or group of persons take control of the Government of Nigeria or any part thereof, except in accordance with the provisions of the Constitution. \n\nIn addition, Section 1(3) of the Constitution provides that if any other law is inconsistent with the provisions of the Constitution, the Constitution shall prevail, and that other law shall, to the extent of the inconsistency, be void. \n\nThis means that the Constitution is the highest law in the land, and all other laws, including Acts of the National Assembly and laws made by the States, must be consistent with its provisions. \n\nIn summary, the supremacy of the Nigerian Constitution means that it is the highest law in the land, and all authorities and persons in Nigeria are bound by its provisions. \n\nRelevant authority: \n- Section 1 of the Constitution of the Federal Republic of Nigeria, 1999 (as amended).",
+      "metrics": {
+        "token_f1": {
+          "precision": 0.11570247933884298,
+          "recall": 0.9655172413793104,
+          "f1": 0.20664206642066424
+        },
+        "difflib_ratio": 0.14439140811455847,
+        "embedding_cosine": null
+      },
+      "legal_basis": {
+        "expected": [
+          {
+            "law": "Constitution of Nigeria",
+            "sections": "Section 1(1)–(3)"
+          }
+        ],
+        "match": {
+          "has_expected_basis": false,
+          "matched": []
+        }
+      }
+    },
+    {
+      "id": "Q002",
+      "category": "Constitutional Law",
+      "confidence": "High",
+      "question": "Can the National Assembly amend the Constitution without state approval?",
+      "expected_answer": "No. Most constitutional amendments require approval by at least two-thirds of the State Houses of Assembly, in addition to passage by the National Assembly.",
+      "model_answer": "CONSTITUTIONAL AMENDMENT PROCESS\n\nThe National Assembly has the power to alter any provision of the Constitution, subject to the provisions of Section 9 of the Constitution of the Federal Republic of Nigeria. \n\nAccording to Section 9(2) of the Constitution, an Act of the National Assembly for the alteration of the Constitution shall not be passed in either House of the National Assembly unless the proposal is supported by the votes of not less than two-thirds majority of all the members of that House and approved by resolution of the Houses of Assembly of not less than two-thirds of all the States.\n\nFurthermore, Section 9(3) provides that an Act of the National Assembly for the purpose of altering certain provisions of the Constitution, including Chapter IV, shall not be passed by either House of the National Assembly unless the proposal is approved by the votes of not less than four-fifths majority of all the members of each House, and also approved by resolution of the House of Assembly of not less than two-thirds of all the States.\n\nTherefore, the National Assembly cannot amend the Constitution without state approval, as the approval of the Houses of Assembly of at least two-thirds of all the States is required for any constitutional amendment. \n\nRelevant authority: \n- Section 9(2) of the Constitution of the Federal Republic of Nigeria\n- Section 9(3) of the Constitution of the Federal Republic of Nigeria",
+      "metrics": {
+        "token_f1": {
+          "precision": 0.07851239669421488,
+          "recall": 0.76,
+          "f1": 0.14232209737827717
+        },
+        "difflib_ratio": 0.09252217997465145,
+        "embedding_cosine": null
+      },
+      "legal_basis": {
+        "expected": [
+          {
+            "law": "Constitution of Nigeria",
+            "sections": "Section 9"
+          }
+        ],
+        "match": {
+          "has_expected_basis": true,
+          "matched": [
+            "Section 9"
+          ]
+        }
+      }
+    },
+    {
+      "id": "Q003",
+      "category": "Constitutional Law",
+      "confidence": "High",
+      "question": "What are the fundamental rights guaranteed under Chapter IV?",
+      "expected_answer": "Chapter IV guarantees rights including the right to life, dignity of the human person, personal liberty, fair hearing, private and family life, freedom of expression, assembly, religion, and freedom from discrimination.",
+      "model_answer": "FUNDAMENTAL RIGHTS UNDER CHAPTER IV\n\nThe fundamental rights guaranteed under Chapter IV of the Constitution of the Federal Republic of Nigeria, 1999, include the rights to life, dignity of human person, personal liberty, fair hearing, freedom of expression, assembly and association, freedom of movement, freedom from discrimination, and right to private and family life, among others.\n\nSPECIFIC RIGHTS UNDER CHAPTER IV\n\nSome of the specific rights guaranteed under Chapter IV of the Constitution include:\n\n1. Right to life, as provided in Section 33 of the Constitution.\n2. Right to dignity of human person, as provided in Section 34 of the Constitution.\n3. Right to personal liberty, as provided in Section 35 of the Constitution.\n4. Right to fair hearing, as provided in Section 36 of the Constitution.\n5. Right to freedom of expression, as provided in Section 39 of the Constitution.\n6. Right to freedom of assembly and association, as provided in Section 40 of the Constitution.\n7. Right to freedom of movement, as provided in Section 41 of the Constitution.\n8. Right to freedom from discrimination, as provided in Section 42 of the Constitution.\n9. Right to private and family life, as provided in Section 37 of the Constitution.\n\nAPPLICATION TO CHILDREN\n\nAs provided in Section 3 of the Child Rights Act, the provisions of Chapter IV of the Constitution apply to children, and in addition to these rights, every child has the rights set out in the Act, including the right to survival and development, as provided in Section 4 of the Act.\n\nAUTHORITY\nConstitution of the Federal Republic of Nigeria, 1999, Chapter IV.\nChild Rights Act, Sections 3 and 4.",
+      "metrics": {
+        "token_f1": {
+          "precision": 0.10622710622710622,
+          "recall": 0.9354838709677419,
+          "f1": 0.19078947368421054
+        },
+        "difflib_ratio": 0.00427578834847675,
+        "embedding_cosine": null
+      },
+      "legal_basis": {
+        "expected": [
+          {
+            "law": "Constitution of Nigeria",
+            "sections": "Sections 33–46"
+          }
+        ],
+        "match": {
+          "has_expected_basis": false,
+          "matched": []
+        }
+      }
+    }
+  ]
+}

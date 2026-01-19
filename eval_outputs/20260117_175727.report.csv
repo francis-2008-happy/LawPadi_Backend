@@ -1,0 +1,4 @@
+id,category,confidence,token_f1,difflib_ratio,embedding_cosine,legal_basis_match,question
+Q001,Constitutional Law,High,0.20664206642066424,0.14439140811455847,,False,What is the supremacy of the Nigerian Constitution?
+Q002,Constitutional Law,High,0.14232209737827717,0.09252217997465145,,True,Can the National Assembly amend the Constitution without state approval?
+Q003,Constitutional Law,High,0.19078947368421054,0.00427578834847675,,False,What are the fundamental rights guaranteed under Chapter IV?

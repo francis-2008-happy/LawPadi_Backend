@@ -1,3 +1,12 @@
+import os
+
+# Hugging Face Hub defaults the metadata (ETag/HEAD) timeout to ~10s.
+# On slower connections this causes repeated ReadTimeoutError during model load.
+os.environ.setdefault("HF_HUB_ETAG_TIMEOUT", os.getenv("HF_HUB_ETAG_TIMEOUT", "120"))
+os.environ.setdefault(
+    "HF_HUB_DOWNLOAD_TIMEOUT", os.getenv("HF_HUB_DOWNLOAD_TIMEOUT", "300")
+)
+
 from sentence_transformers import SentenceTransformer
 
 
