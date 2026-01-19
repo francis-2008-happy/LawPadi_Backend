@@ -26,6 +26,20 @@ class QueryRequest(BaseModel):
     question: str
 
 
+@router.get("")
+@router.get("/")
+def query_help():
+    return {
+        "message": "Use POST /query with JSON: { 'question': '...' }",
+        "example": {
+            "method": "POST",
+            "path": "/query",
+            "json": {"question": "What is the legal effect of a contract signed under duress?"},
+        },
+    }
+
+
+@router.post("")
 @router.post("/")
 def query_law(req: QueryRequest):
     """
